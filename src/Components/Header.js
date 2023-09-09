@@ -2,20 +2,22 @@ import React from 'react'
 import styled  from 'styled-components';
 import { AiFillMobile } from 'react-icons/ai';
 import { MdEmail} from 'react-icons/md';
-import { Container } from 'react-bootstrap';
 
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    prabhat
-  </div>
-</nav>
 
 function Header
 () {
   const Wrapper=styled.div`
+  
   background-color: #ff3333;
   padding: 30px 20px 0px 50px;
+  @media (max-width:767px){
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+  background-color: #ff3333;
+  padding: 30px 20px 0px 20px;
+  }
   `;
 
   const Name=styled.div`
@@ -24,20 +26,30 @@ function Header
   color: white;
   font-weight: bold;
   font-style: italic;
+  @media (max-width: 767px){
+    font-size: 35px;
+  }
   `;
 
   const Contact =styled.div`
  padding-left: 5px;
+ padding-top: 5px;
  margin-right: 20px;
+ @media (max-width:767px){
+  margin-right:5px ;
+ }
   `;
 
   const Contact2 =styled.div`
- /* margin-left:30px ; */
  padding-left: 5px;
+ padding-top: 5px;
+ @media (max-width: 767px){
+  padding-left: 0;
+ }
   `;
 
   const Title =styled.div`
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   `;
 
@@ -56,11 +68,11 @@ function Header
           Software Developer
         </Title>
         <Detail>
-        <MdEmail/>
+        <MdEmail style={{height:"25px", width:"25px"}} />
           <Contact>
             Prabhatk850@gmail.com  
           </Contact>
-          <AiFillMobile/>
+          <AiFillMobile style={{height:"25px", width:"25px"}}/>
           <Contact2>    
             +91 9968301177
           </Contact2>

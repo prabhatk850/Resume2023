@@ -8,12 +8,21 @@ padding: 0;}
   border: 1px solid rgb(255, 255, 255);
   height: 32px;
   width: 60px;
-  margin-top: 29px;
+  margin-top: 30px;
   left: 500px;
   border-radius: 1em;
-
-  
 }
+
+@media (max-width:767px){
+  .ToggleSwitch{
+    margin-top: 20px;
+    width: 70px;
+    height: 20px;
+
+
+  }   
+}
+
 .knob{
     position: relative;
     width: 30px;
@@ -23,13 +32,29 @@ padding: 0;}
     border-radius: 50%;
     left: 0em;
     transition: left 0.3s ease-out;}
+
+@media (max-width:767px){
+  .knob{
+    width: 20px;
+    height: 20px;
+
+  }   
+}
+    
 .active{
     position: relative;
     width: 30px;
     height: 30px;
-    background: #c22424;
-    border: 1px solid #ddd;
+    background:#ff3333;
     border-radius: 50%;
     transition: left 0.3s ease-out;
     left: 30px
+}
+
+@media (max-width:767px){
+  .active{
+    width: 20px;
+    height: 20px;
+    left: 18px
+  }   
 }

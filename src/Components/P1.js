@@ -11,44 +11,98 @@ import Employement from "./Employement";
 
 function P1() {
 
-  const [toggle,setToggle] =useState("true")
+  const [toggle,setToggle] =useState("false")
 
-  const handleChange = ()=>{
-    setToggle(!toggle)
-    // console.log("first",toggle)
-  }
+  // const handleChange = ()=>{
+  //   setToggle(!toggle)
+  //    console.log("first",toggle)
+  // }
   
   const Wrapper = styled.div`
     font-size: 20px;
     padding: 20px 50px;
+    @media (max-width:767px){
+      padding: 0px 18px;
+    }
   `;
   const Headding1 = styled.div`
   font-size: 30px;
   padding: 30px 0;
   display: flex;
+   @media (max-width:767px){
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+    }  
 `;
   const Profile = styled.div`
     height: 55px;
+    @media (max-width:767px){
+      height: 140px;
+      font-size: 18px;
+    }  
   `;
+  
   const Headding = styled.div` 
     font-size: 30px;
     padding: 30px 0;
-    margin-left: 5px;
     display: flex;
     color: #cc0000;
     width: 300px;
+    @media (max-width:767px){
+      font-size: 25px;
+      padding: 15px 0;
+      padding-right: 5px;
+    }
   `;
-  const Ed=styled.div`
-  padding-left: 10px;
+  const Ep = styled.div` 
   font-size: 30px;
-  padding-top: 30px;
+  padding: 30px 0;
+  display: flex;
+  color: #cc0000;
+  width: 300px;
+  @media (max-width:767px){
+    font-size: 25px;
+    padding: 15px 0;
+    padding-right: 5px;
+  }
+  @media (min-width:768px){
+    display: none;
+  }
+`;
+  const HeaddingMobile = styled.div` 
+  font-size: 30px;
+  padding: 30px 0;
+  display: flex;
+  color: #cc0000;
+  width: 300px;
+  @media (max-width:767px){
+    display: none;
+   
+  }
+`;
+  const Ed=styled.div`
+   font-size: 30px;
+   margin-left: 10px;
+    padding: 30px 0;
     display: flex;
     color: #cc0000;
     width: 300px;
+    @media (max-width:767px){
+      padding: 15px 0;
+      margin-left: 15px;
+       font-size: 25px;
+    }
   `;
   const Emphis = styled.div`
   display: inline-flex;
   justify-content: space-around;
+
+  @media(max-width:767px ){
+    display: none;
+  }
+
 `;
 const Fromto = styled.div`
 width: 77px;
@@ -65,6 +119,7 @@ padding-right: 40px;
 
 const Comapany = styled.div`
   font-size: 25px;
+  padding-left:12px;
 `;
 
 
@@ -88,7 +143,8 @@ const Comapany = styled.div`
         />
       </Profile>
       <Headding1>
-      <Headding>Employement History</Headding>
+      <HeaddingMobile>Employment History</HeaddingMobile>
+      <Ep>Employment </Ep>
       <br></br>
       
       <ToggleSwitch setData={setToggle}/>
@@ -98,11 +154,9 @@ const Comapany = styled.div`
          
       </Headding1>
       {toggle?<Education/>:<Employement/>}
-      <br></br>
-      <br></br>
-     
-
-      <Headding>Certifications</Headding>
+      
+      
+  <Headding>Certifications</Headding>
   <Emphis>
       <Fromto> Nov 2022
           <br></br>

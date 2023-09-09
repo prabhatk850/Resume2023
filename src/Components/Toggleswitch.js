@@ -1,23 +1,18 @@
 import React, { useState } from "react";
-import Education from "./Education";
-import Employement from "./Employement";
+
 
 function Toggleswitch(props) {
   const [toggle, setToggle] = useState(true);
-  // const handleClick = () => {
-  //   setToggle(!toggle)
 
-  // };
-  var  x = false
+  // var  x = toggle
   function changeX(){
- 
-    return !x
+   
+    props.setData(toggle)
   }
   function handleChange(){
     setToggle(!toggle)
-    let data=changeX()
-    // console.log("first",data)
-    props.setData(toggle)
+    console.log("first",toggle)
+    changeX()
   }
   return (
     <>

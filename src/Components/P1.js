@@ -65,7 +65,6 @@ function P1() {
   @media (max-width:767px){
     font-size: 25px;
     padding: 15px 0;
-    padding-right: 5px;
   }
   @media (min-width:768px){
     display: none;
@@ -98,16 +97,33 @@ function P1() {
   const Emphis = styled.div`
   display: inline-flex;
   justify-content: space-around;
+  margin-bottom: 25px;
 
   @media(max-width:767px ){
     display: none;
   }
 
 `;
+
+const EmphisMob = styled.div`
+width: 380px;
+font-size:16px;
+@media(min-width:768px ){
+  display: none;
+}
+
+`;
+
 const Fromto = styled.div`
 width: 77px;
 font-size: 15px;
 margin-right: 96px;
+margin-bottom: 5px;
+@media (max-width:767px){
+  margin-right: 0px;
+  color: gray;
+  font-size: 14px;
+}
 `;
   
 const Detail = styled.div`
@@ -115,11 +131,28 @@ width:950px;
 font-size: 20px;
 padding-left: 40px;
 padding-right: 40px;
+ @media(max-width: 767px){
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
 `;
 
 const Comapany = styled.div`
   font-size: 25px;
   padding-left:12px;
+  
+  margin-bottom: 5px;
+  @media(max-width: 767px){
+    padding-left: 0;
+    font-size: 16px;
+    width: 380px;
+    margin-bottom: 15px;
+  }
+`;
+
+const Skills =styled.div`
+
 `;
 
 
@@ -159,50 +192,92 @@ const Comapany = styled.div`
   <Headding>Certifications</Headding>
   <Emphis>
       <Fromto> Nov 2022
-          <br></br>
+          
       </Fromto>
     <Detail>
         <Comapany>Pega Certified Senior system architect(CSSA), Pegasystem</Comapany>
-          <br></br>
+         
     </Detail>
   </Emphis>
-  <br></br>
-  <br></br>
+  
   <Emphis>
       <Fromto>Jun 2022
-          <br></br>
+          
       </Fromto>
     <Detail>
         <Comapany>Pega Certified system architect(CSA), Pegasystem</Comapany>
-          <br></br>
+          
     </Detail>
   </Emphis>
-  <br></br>
-  <br></br>
+  
   <Emphis>
       <Fromto>Nov 2021
-          <br></br>
+          
       </Fromto>
     <Detail>
         <Comapany>Full Stack Java Developer, Udemy</Comapany>
-          <br></br>
+          
     </Detail>
   </Emphis>
-  <br></br>
-  <br></br>
+ 
   <Emphis>
       <Fromto>Oct 2021
-          <br></br>
+          
       </Fromto>
     <Detail>
         <Comapany>The Complete 2021 Web Developement Bootcamp, Udemy</Comapany>
-          <br></br>
+          
     </Detail>
   </Emphis>
+
+  <EmphisMob>
+      <Fromto> Nov 2022
+          
+      </Fromto>
+    {/* <Detail> */}
+        <Comapany>Pega Certified Senior System Architect(CSSA)</Comapany>
+          
+    {/* </Detail> */}
+  </EmphisMob>
+  
+  <EmphisMob>
+      <Fromto>Jun 2022
+         
+      </Fromto>
+    {/* <Detail> */}
+        <Comapany>Pega Certified System Architect(CSA)</Comapany>
+          
+    {/* </Detail> */}
+  </EmphisMob>
+  
+  <EmphisMob>
+      <Fromto>Nov 2021
+          
+      </Fromto>
+    {/* <Detail> */}
+        <Comapany>Full Stack Java Developer</Comapany>
+          
+    {/* </Detail> */}
+  </EmphisMob>
+  
+  <EmphisMob>
+      <Fromto>Oct 2021
+          
+      </Fromto>
+    {/* <Detail> */}
+        <Comapany>The Complete 2021 Web Developement Bootcamp</Comapany>
+          
+    {/* </Detail> */}
+  </EmphisMob>
 
   <Headding>
     Skills
   </Headding>
+
+  <Skills>
+      
+
+  </Skills>
   
     
  </Wrapper>

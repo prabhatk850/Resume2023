@@ -99,7 +99,7 @@ function P1() {
   `;
 
   const EmphisMob = styled.div`
-    width: 380px;
+    width: 100%;
     font-size: 16px;
     @media (min-width: 768px) {
       display: none;
@@ -115,6 +115,7 @@ function P1() {
       margin-right: 0px;
       color: gray;
       font-size: 14px;
+      width: auto;
     }
   `;
 
@@ -130,18 +131,16 @@ function P1() {
     width: 100%;
     padding-right: 0;
     margin-bottom: 5px;
-    @media (max-width: 767px) {
-      padding-left: 0;
-      font-size: 16px;
-      width: 380px;
-      margin-bottom: 15px;
-    }
+
     @media (max-width: 767px) {
       padding-left: 0;
       padding-right: 0;
+      font-size: 16px;
       margin-bottom: 15px;
     }
   `;
+  const Capture=styled.div`
+  width:100%;`;
 
   const Skills = styled.div``;
 
@@ -207,42 +206,39 @@ function P1() {
           <Comapany>Full Stack Java Developer, Udemy</Comapany>
         
       </Emphis>
-
+<Capture>
       <EmphisMob>
         <Fromto> Nov 2022</Fromto>
-        {/*  */}
+       
         <Comapany>Pega Certified Senior System Architect(CSSA)</Comapany>
 
-        {/*  */}
       </EmphisMob>
 
       <EmphisMob>
         <Fromto>Jun 2022</Fromto>
-        {/*  */}
+       
         <Comapany>Pega Certified System Architect(CSA)</Comapany>
 
-        {/*  */}
       </EmphisMob>
 
       <EmphisMob>
         <Fromto>Nov 2021</Fromto>
-        {/*  */}
+      
         <Comapany>Full Stack Java Developer</Comapany>
 
-        {/*  */}
       </EmphisMob>
 
       <EmphisMob>
         <Fromto>Oct 2021</Fromto>
-        {/*  */}
-        <Comapany>The Complete 2021 Web Developement Bootcamp</Comapany>
+       
+        <Comapany>Complete 2021 Web Developement Bootcamp</Comapany>
 
-        {/*  */}
       </EmphisMob>
 
       <Headding>Skills</Headding>
 
       <Skills></Skills>
+</Capture>
     </Wrapper>
   );
 }

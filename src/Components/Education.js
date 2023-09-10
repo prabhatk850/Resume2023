@@ -40,6 +40,8 @@ const Detail = styled.div`
 
  @media (max-width: 767px) {
   font-size: 14px;
+   width:100%;
+   padding-right:0px;
  }
 `;
 

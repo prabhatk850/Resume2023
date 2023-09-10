@@ -3,9 +3,11 @@ import styled from "styled-components";
 
 function Education() {
     const Emphis = styled.div`
-    display: inline-flex;
+    width: 100%;
+    padding-right: 0;
+    display: flex;
     margin-bottom: 25px;
-    justify-content: space-around;
+    justify-content: space-between;
    
     @media(max-width: 767px){
     display: none;
@@ -21,7 +23,9 @@ margin-bottom: 10px;
 `;
 
  const Fromto = styled.div`
- width: 220px;
+ width: 165px;
+ padding-right: 0;
+
  font-size: 15px;
  @media(max-width: 767px){
   color: gray;
@@ -33,18 +37,20 @@ margin-bottom: 10px;
 
 
 const Detail = styled.div`
- width:950px;
+ width:65%;
  font-size: 20px;
  /* padding-left: 30px; */
  padding-right: 40px;
 
  @media (max-width: 767px) {
   font-size: 14px;
+  width: 100%;
+  padding-right: 0;
  }
 `;
 
 const Place = styled.div`
- width: 100px;
+ width: 10%;
  font-size: 15px;
 
 `;

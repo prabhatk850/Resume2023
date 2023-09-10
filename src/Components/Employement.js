@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Employement() {
   
   const Emphis = styled.div`
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
   margin-bottom: 25px;
 
@@ -22,7 +22,7 @@ margin-bottom: 10px;
 `;
 
 const Fromto = styled.div`
-width: max-content;
+width: 255px;
 font-size: 15px;
 @media(max-width: 767px){
   color: gray;
@@ -31,22 +31,14 @@ font-size: 15px;
 }
 `;
 
-// const Headding = styled.div` 
-//     font-size: 30px;
-//     display: flex;
-//     color: #cc0000;
-//     width: 300px;
-//   `;
 
 const Detail = styled.div`
 width:950px;
 font-size: 20px;
-padding-left: 58px;
-padding-right: 40px;
 `;
 
 const Place = styled.div`
-width: max-content;
+width: 140px;
 font-size: 15px;
 
 `;
@@ -97,7 +89,7 @@ return (
 </Emphis>
 
 <Emphis>
-  <Fromto>Jun 2021 — Jan 2022</Fromto>
+  <Fromto>Jun 2021 - Jan 2022</Fromto>
   <Detail>
     <Comapany>Intern - Techo Worx</Comapany>
     <br></br>

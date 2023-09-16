@@ -8,14 +8,12 @@ import Employement from "./Employement";
 function P1() {
   const [toggle, setToggle] = useState("false");
 
-  // const handleChange = ()=>{
-  //   setToggle(!toggle)
-  //    console.log("first",toggle)
-  // }
+  
 
   const Wrapper = styled.div`
     font-size: 20px;
     padding: 20px 50px;
+    margin-bottom: 20px;
     @media (max-width: 767px) {
       padding: 0px 18px;
     }
@@ -76,7 +74,7 @@ function P1() {
   `;
   const Ed = styled.div`
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 30px 0;
     display: flex;
     color: #cc0000;
@@ -119,12 +117,6 @@ function P1() {
     }
   `;
 
-  const Detail = styled.div`
-    width: 100%;
-    font-size: 20px;
-   
-  `;
-
   const Comapany = styled.div`
     font-size: 25px;
     padding-left: 12px;
@@ -139,10 +131,33 @@ function P1() {
       margin-bottom: 15px;
     }
   `;
-  const Capture=styled.div`
-  width:100%;`;
+  const Capture = styled.div`
+    width: 100%;
+  `;
 
-  const Skills = styled.div``;
+  const Skills = styled.div`
+    line-height: 1.6em;
+    
+  `;
+
+  const Allskills= styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  @media(max-width: 768px){
+      display: none;
+
+    }
+  
+  `;
+
+  const MobSkills=styled.div`
+  line-height: 1.7em;
+  font-size:18px;
+  @media (min-width: 767px){
+    display: none;
+  }
+  `;
 
   return (
     <Wrapper>
@@ -178,67 +193,111 @@ function P1() {
       <Headding>Certifications</Headding>
       <Emphis>
         <Fromto> Nov 2022</Fromto>
-        
-          <Comapany>
-            Pega Certified Senior system architect(CSSA), Pegasystem
-          </Comapany>
-        
+
+        <Comapany>
+          Pega Certified Senior system architect(CSSA), Pegasystem
+        </Comapany>
       </Emphis>
 
       <Emphis>
         <Fromto>Jun 2022</Fromto>
-        
-          <Comapany>Pega Certified system architect(CSA), Pegasystem</Comapany>
-        
+
+        <Comapany>Pega Certified system architect(CSA), Pegasystem</Comapany>
       </Emphis>
 
       <Emphis>
         <Fromto>Oct 2021</Fromto>
-       
-          <Comapany>
-          The Complete 2021 Web Developement Bootcamp, Udemy
-          </Comapany>
-       
+
+        <Comapany>The Complete 2021 Web Developement Bootcamp, Udemy</Comapany>
       </Emphis>
       <Emphis>
         <Fromto>Nov 2021</Fromto>
-        
-          <Comapany>Full Stack Java Developer, Udemy</Comapany>
-        
+
+        <Comapany>Full Stack Java Developer, Udemy</Comapany>
       </Emphis>
-<Capture>
-      <EmphisMob>
-        <Fromto> Nov 2022</Fromto>
-       
-        <Comapany>Pega Certified Senior System Architect(CSSA)</Comapany>
+      <Capture>
+        <EmphisMob>
+          <Fromto> Nov 2022</Fromto>
 
-      </EmphisMob>
+          <Comapany>Pega Certified Senior System Architect(CSSA)</Comapany>
+        </EmphisMob>
 
-      <EmphisMob>
-        <Fromto>Jun 2022</Fromto>
-       
-        <Comapany>Pega Certified System Architect(CSA)</Comapany>
+        <EmphisMob>
+          <Fromto>Jun 2022</Fromto>
 
-      </EmphisMob>
+          <Comapany>Pega Certified System Architect(CSA)</Comapany>
+        </EmphisMob>
 
-      <EmphisMob>
-        <Fromto>Nov 2021</Fromto>
-      
-        <Comapany>Full Stack Java Developer</Comapany>
+        <EmphisMob>
+          <Fromto>Nov 2021</Fromto>
 
-      </EmphisMob>
+          <Comapany>Full Stack Java Developer</Comapany>
+        </EmphisMob>
 
-      <EmphisMob>
-        <Fromto>Oct 2021</Fromto>
-       
-        <Comapany>Complete 2021 Web Developement Bootcamp</Comapany>
+        <EmphisMob>
+          <Fromto>Oct 2021</Fromto>
 
-      </EmphisMob>
+          <Comapany>Complete 2021 Web Developement Bootcamp</Comapany>
+        </EmphisMob>
 
-      <Headding>Skills</Headding>
+        <Allskills>
+        <Skills>
+        <Headding>Technical Skills</Headding>
+          -Object-Oriented Programming (OOP)<br></br>
+          -Data Structures and Algorithms<br></br>
+          -Java Programming<br></br>
+          -Database Management and SQL<br></br>
+          -Agile/Scrum<br></br>
+          -React.js<br></br>
+          -JavaScript (ES6+)<br></br>
+          -HTML/CSS<br></br>
+          -React Hooks<br></br>
+          -Component Libraries<br></br>
+          -Git<br></br>
+        </Skills>
 
-      <Skills></Skills>
-</Capture>
+        
+        <Skills>
+        
+         <Headding>Soft Skills</Headding>
+
+          -Problem-Solving<br></br>
+          -Communication<br></br>
+          -Attention to Detail<br></br>
+          -Adaptability<br></br>
+          -Teamwork<br></br>
+        </Skills>
+        <skills></skills>
+        </Allskills>
+        
+        
+        <MobSkills>
+        <Headding>Technical Skills</Headding>
+          -Object-Oriented Programming (OOP)<br></br>
+          -Data Structures and Algorithms<br></br>
+          -Java Programming<br></br>
+          -Database Management and SQL<br></br>
+          -Agile/Scrum<br></br>
+          -React.js<br></br>
+          -JavaScript (ES6+)<br></br>
+          -HTML/CSS<br></br>
+          -React Hooks<br></br>
+          -Component Libraries<br></br>
+          -Git<br></br>
+        </MobSkills>
+
+        
+        <MobSkills>
+        
+         <Headding>Soft Skills</Headding>
+
+          -Problem-Solving<br></br>
+          -Communication<br></br>
+          -Attention to Detail<br></br>
+          -Adaptability<br></br>
+          -Teamwork<br></br>
+        </MobSkills>
+      </Capture>
     </Wrapper>
   );
 }

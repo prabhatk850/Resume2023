@@ -22,7 +22,7 @@ margin-bottom: 10px;
 `;
 
 const Fromto = styled.div`
-width: 255px;
+width: 250px;
 font-size: 15px;
 @media(max-width: 767px){
   color: gray;
@@ -53,6 +53,9 @@ const Comapany = styled.div`
 const Duration=styled.div`
 padding-top: 30px;
 `;
+const Duration1=styled.div`
+margin-top: 32em;
+`;
 const Info =styled.div`
 @media (max-width: 767px) {
 font-size: 18px;
@@ -65,25 +68,31 @@ return (
     <br></br>
     <br></br>
     <Duration>1 Year</Duration>
-    <br></br>
-    <br></br>
-    <br></br>
-    <Duration>6 Months</Duration>
+    <Duration1>6 Months</Duration1>
   </Fromto>
   <Detail>
+
     <Comapany>Software Developer - Coforge ltd</Comapany>
     <br></br>
-    <Info>Worked as React Developer - Designed and Implemented user interfaces(UIs)
-    and UI components using React as a Frontend developement framework.
-    Worked on Backend according to the requirements using Node as a Backend developer framework. 
+    <Info>As a React.js developer, I played a pivotal role in crafting innovative and performant web applications. Leveraging my expertise in React.js and JavaScript (ES6+), I championed component-based development, ensuring the maintainability and scalability of our projects.
+    <br></br><br></br>
+    Navigational fluency with React Router allowed me to create seamless user experiences, while lifecycle methods and hooks, such as useState and useEffect, empowered me to optimize application behavior and performance.
+    <br></br><br></br>
+    In collaboration with the team, I adopted Front-End Frameworks such as Material-UI and Bootstrap, ensuring consistency and rapid development. My version control proficiency with Git streamlined code collaboration and facilitated efficient code reviews.
+    <br></br><br></br>
+    I mastered code splitting techniques to optimize loading times and implemented server-side rendering (SSR) with React, particularly using Next.js, for SEO-friendly single-page applications (SPA).
+    <br></br><br></br>
+    I embraced Agile/Scrum methodologies, participating actively in sprint planning, stand-up meetings, and retrospectives, consistently delivering high-quality code on time. My problem-solving and troubleshooting skills were instrumental in resolving complex technical challenges, ensuring smooth project execution.
+    <br></br><br></br>
     </Info>
     <br></br>
-    <Info>Worked as a Pega Developer - Developed using PRPC(8.7)
-    according to business requirements. Designed and Implemented UI.
-    Worked on Case Management. Worked on Activity, Flow
-    action, Flows, Data Transform, Report Definition, Data instances,
-    Dynamic System Setting, and Sections.
-    </Info>
+    <Info>As a Pega Developer Designed & Developed using PRPC(8.7)
+    according to business requirements.<br></br><br></br> Designed and Implemented UI.<br></br><br></br>
+    Implement case management solutions, decision strategies, and business rules for optimized workflow automation.<br></br><br></br>
+    Worked on Activity, Flowaction, Flows, Data Transform, Report Definition, Data instances,
+    Dynamic System Setting, and Sections.<br></br><br></br>
+    Participate in Agile development methodologies and contribute to sprint planning, backlog refinement, and daily stand-up meetings.
+</Info>
   </Detail>
   <Place>Greater Noida</Place>
 </Emphis>
@@ -102,16 +111,23 @@ return (
 <EmphisMob>
 <Comapany> Software Developer - Coforge ltd </Comapany>
 <Fromto>Mar 2022 - Sept 2022 </Fromto>
-<Info>Worked as React Developer - Designed and Implemented user interfaces(UIs)
-    and UI components using React as a Frontend developement framework.
-    Worked on Backend according to the requirements using Node as a Backend developer framework. 
-</Info>
+<Info>As a React.js developer, I played a pivotal role in crafting innovative and performant web applications. Leveraging my expertise in React.js and JavaScript (ES6+), I championed component-based development, ensuring the maintainability and scalability of our projects.
+    <br></br><br></br>
+    In collaboration with the team, I adopted Front-End Frameworks such as Material-UI and Bootstrap, ensuring consistency and rapid development. My version control proficiency with Git streamlined code collaboration and facilitated efficient code reviews.
+    <br></br><br></br>
+    I mastered code splitting techniques to optimize loading times and implemented server-side rendering (SSR) with React, particularly using Next.js, for SEO-friendly single-page applications (SPA).
+    <br></br><br></br>
+    I embraced Agile/Scrum methodologies, participating actively in sprint planning, stand-up meetings, and retrospectives, consistently delivering high-quality code on time. My problem-solving and troubleshooting skills were instrumental in resolving complex technical challenges, ensuring smooth project execution.
+    <br></br><br></br>
+    </Info>
 <Fromto>Sept 2022 - Aug 2023 </Fromto>
-<Info>Worked as a Pega Developer - Developed using PRPC(8.7)
-    according to business requirements. Designed and Implemented UI.
-    Worked on Case Management. Worked on Activity, Flow
-    action, Flows, Data Transform, Report Definition, Data instances,
-    Dynamic System Setting, and Sections.
+<Info>As a Pega Developer Designed & Developed using PRPC(8.7)
+    according to business requirements.<br></br><br></br> Designed and Implemented UI.<br></br><br></br>
+    Implement case management solutions, decision strategies, and business rules for optimized workflow automation.<br></br><br></br>
+    Worked on Activity, Flowaction, Flows, Data Transform, Report Definition, Data instances,
+    Dynamic System Setting, and Sections.<br></br><br></br>
+    Participate in Agile development methodologies and contribute to sprint planning, backlog refinement, and daily stand-up meetings.
+
 </Info>
 <br></br>
 <Comapany>Intern - Techo Worx</Comapany>

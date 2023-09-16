@@ -125,7 +125,7 @@ function Header
           <A>
           <AiFillMobile style={{height:"25px", width:"25px"}}/>
           <Contact2>    
-            +91 9968301177
+            <Link  target='_blank' style={{color:"black"}} href="tel:+919968301177">+91 9968301177</Link>
           </Contact2>
           </A>
         </Detail>
@@ -133,7 +133,7 @@ function Header
           <A>
           <AiFillMobile style={{height:"25px", width:"25px"}}/>
           <Contact2>    
-            +91 9968301177
+            <Link  target='_blank' style={{color:"black"}} href="tel:+919968301177">+91 9968301177</Link>
           </Contact2>
           </A>
           <A>

@@ -248,6 +248,7 @@ function P1() {
           -Java Programming<br></br>
           -Database Management and SQL<br></br>
           -Agile/Scrum<br></br>
+          -Jira<br></br>
           -React.js<br></br>
           -JavaScript (ES6+)<br></br>
           -HTML/CSS<br></br>
@@ -278,6 +279,7 @@ function P1() {
           -Java Programming<br></br>
           -Database Management and SQL<br></br>
           -Agile/Scrum<br></br>
+          -Jira<br></br>
           -React.js<br></br>
           -JavaScript (ES6+)<br></br>
           -HTML/CSS<br></br>

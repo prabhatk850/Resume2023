@@ -97,13 +97,14 @@ return (
   <Place>Greater Noida</Place>
 </Emphis>
 
-<Emphis>
+<Emphis style={{marginTop:"70px"}}>
   <Fromto>Jun 2021 - Jan 2022</Fromto>
   <Detail>
     <Comapany>Intern - Techo Worx</Comapany>
     <br></br>
-    Worked on multiple software components using JAVA
-    <div>Written various blocks of codes according to requirements</div>
+    During my tenure, I actively contributed to diverse software components, all built with Java. In this dynamic environment, I consistently demonstrated coding proficiency by crafting code blocks aligned with project requirements. This process required a deep understanding of each component's functionality and expert use of Java to deliver efficient solutions.
+    <br></br><br></br>
+    Adaptability was a hallmark of my work, allowing for seamless transitions between distinct project demands, resulting in consistently high-quality code. My commitment to aligning code with precise project specifications was a cornerstone of our team's overall success.
   </Detail>
   <Place>Ghaziabad</Place>
 </Emphis>
@@ -111,15 +112,17 @@ return (
 <EmphisMob>
 <Comapany> Software Developer - Coforge ltd </Comapany>
 <Fromto>Mar 2022 - Sept 2022 </Fromto>
-<Info>As a React.js developer, I played a pivotal role in crafting innovative and performant web applications. Leveraging my expertise in React.js and JavaScript (ES6+), I championed component-based development, ensuring the maintainability and scalability of our projects.
-    <br></br><br></br>
-    In collaboration with the team, I adopted Front-End Frameworks such as Material-UI and Bootstrap, ensuring consistency and rapid development. My version control proficiency with Git streamlined code collaboration and facilitated efficient code reviews.
-    <br></br><br></br>
-    I mastered code splitting techniques to optimize loading times and implemented server-side rendering (SSR) with React, particularly using Next.js, for SEO-friendly single-page applications (SPA).
-    <br></br><br></br>
-    I embraced Agile/Scrum methodologies, participating actively in sprint planning, stand-up meetings, and retrospectives, consistently delivering high-quality code on time. My problem-solving and troubleshooting skills were instrumental in resolving complex technical challenges, ensuring smooth project execution.
-    <br></br><br></br>
-    </Info>
+<Info>As a React.js developer, a pivotal role was played in crafting innovative and performant web applications. Expertise in React.js and JavaScript (ES6+) was leveraged to champion component-based development, ensuring the maintainability and scalability of projects.
+<br></br><br></br>
+Navigational fluency with React Router facilitated the creation of seamless user experiences, while lifecycle methods and hooks, such as useState and useEffect, were harnessed to optimize application behavior and performance.
+<br></br><br></br>
+In collaboration with the team, Front-End Frameworks such as Material-UI and Bootstrap were adopted to ensure consistency and rapid development. Proficiency in version control with Git streamlined code collaboration and facilitated efficient code reviews.
+<br></br><br></br>
+Code splitting techniques were mastered to optimize loading times, and server-side rendering (SSR) with React, particularly using Next.js, was implemented for SEO-friendly single-page applications (SPA).
+<br></br><br></br>
+Agile/Scrum methodologies were embraced, actively participating in sprint planning, stand-up meetings, and retrospectives, consistently delivering high-quality code on time. Problem-solving and troubleshooting skills proved instrumental in resolving complex technical challenges, ensuring smooth project execution.
+<br></br><br></br>
+ </Info>
 <Fromto>Sept 2022 - Aug 2023 </Fromto>
 <Info>As a Pega Developer Designed & Developed using PRPC(8.7)
     according to business requirements.<br></br><br></br> Designed and Implemented UI.<br></br><br></br>
@@ -133,8 +136,10 @@ return (
 <Comapany>Intern - Techo Worx</Comapany>
 <Fromto>Jun 2021 - Jan 2022</Fromto>
 <Info>
-Worked on multiple software components using JAVA
-<div>Written various blocks of codes according to requirements</div>
+During my tenure, I actively contributed to diverse software components, all built with Java. In this dynamic environment, I consistently demonstrated coding proficiency by crafting code blocks aligned with project requirements. This process required a deep understanding of each component's functionality and expert use of Java to deliver efficient solutions.
+<br></br><br></br>
+Adaptability was a hallmark of my work, allowing for seamless transitions between distinct project demands, resulting in consistently high-quality code. My commitment to aligning code with precise project specifications was a cornerstone of our team's overall success.
+
 </Info>
 </EmphisMob>
 </div>

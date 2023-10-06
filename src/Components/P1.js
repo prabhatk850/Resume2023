@@ -31,7 +31,7 @@ function P1() {
   const Profile = styled.div`
     height: 55px;
     @media (max-width: 767px) {
-      height: 140px;
+      height: 200px;
       font-size: 18px;
     }
   `;
@@ -41,7 +41,7 @@ function P1() {
     padding: 30px 0;
     display: flex;
     color: #cc0000;
-    width: 300px;
+    width: 330px;
     @media (max-width: 767px) {
       font-size: 25px;
       padding: 15px 0;
@@ -169,11 +169,7 @@ function P1() {
               .changeDelay("30")
               .typeString(
                 `
-                            Experienced Software Developer,
-                            Working as a Frontend developer, Backend developer, Full-stack developer & Pega developer.
-                            Over the last year working mostly on Frontend part,
-                            So wants to keep working as Full-stack developer with a focus on Frontend.
-                          `
+                Experienced React developer skilled in crafting high-performance web applications. Proficient in React.js, Node.js and modern JavaScript, with a strong focus on component-based architecture. Committed to delivering seamless user experiences and maintaining scalable, efficient code. Adept at collaborating with teams and leveraging Front-End Frameworks to accelerate development.`
               )
               .pauseFor(2000)
               .start();
@@ -190,7 +186,7 @@ function P1() {
       </Headding1>
       {toggle ? <Employement /> : <Education />}
 
-      <Headding>Certifications</Headding>
+      <Headding>Certifications / Courses</Headding>
       <Emphis>
         <Fromto> Nov 2022</Fromto>
 
@@ -243,62 +239,57 @@ function P1() {
         <Allskills>
         <Skills>
         <Headding>Technical Skills</Headding>
-          -Object-Oriented Programming (OOP)<br></br>
-          -Data Structures and Algorithms<br></br>
-          -Java Programming<br></br>
-          -Database Management and SQL<br></br>
-          -Agile/Scrum<br></br>
-          -Jira<br></br>
+          -Java<br></br>
+          -MongoDB<br></br>
+          -Express.js<br></br>
           -React.js<br></br>
+          -Node.js<br></br>
           -JavaScript (ES6+)<br></br>
-          -HTML/CSS<br></br>
-          -React Hooks<br></br>
-          -Component Libraries<br></br>
-          -Git<br></br>
+          -HTML/CSS<br></br> 
+          -C<br></br>
+          -C++<br></br>
+          -Python<br></br>  
         </Skills>
-
-        
         <Skills>
-        
-         <Headding>Soft Skills</Headding>
-
-          -Problem-Solving<br></br>
-          -Communication<br></br>
-          -Attention to Detail<br></br>
-          -Adaptability<br></br>
-          -Teamwork<br></br>
+          <Headding>Tools</Headding>
+          -Jira<br></br>
+          -Agile/Scrum<br></br>
+          -Styled Components<br></br>
+          -Atlas<br></br>
+          -Postman<br></br>
+          -Git<br></br>
+          -MySQL<br></br>
+          -Visual Studio Code (VS Code)<br></br>
         </Skills>
-        <skills></skills>
+
         </Allskills>
         
         
         <MobSkills>
         <Headding>Technical Skills</Headding>
-          -Object-Oriented Programming (OOP)<br></br>
-          -Data Structures and Algorithms<br></br>
-          -Java Programming<br></br>
-          -Database Management and SQL<br></br>
-          -Agile/Scrum<br></br>
-          -Jira<br></br>
+          -Java<br></br>
+          -MongoDB<br></br>
+          -Express.js<br></br>
           -React.js<br></br>
+          -Node.js<br></br>
           -JavaScript (ES6+)<br></br>
-          -HTML/CSS<br></br>
-          -React Hooks<br></br>
-          -Component Libraries<br></br>
-          -Git<br></br>
+          -HTML/CSS<br></br> 
+          -C<br></br>
+          -C++<br></br>
+          -Python<br></br>  
         </MobSkills>
-
-        
         <MobSkills>
-        
-         <Headding>Soft Skills</Headding>
-
-          -Problem-Solving<br></br>
-          -Communication<br></br>
-          -Attention to Detail<br></br>
-          -Adaptability<br></br>
-          -Teamwork<br></br>
+          <Headding>Tools</Headding>
+          -Jira<br></br>
+          -Agile/Scrum<br></br>
+          -Styled Components<br></br>
+          -Atlas<br></br>
+          -Postman<br></br>
+          -Git<br></br>
+          -MySQL<br></br>
+          -Visual Studio Code (VS Code)<br></br>
         </MobSkills>
+
       </Capture>
     </Wrapper>
   );
